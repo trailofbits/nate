@@ -1,0 +1,19 @@
+language = "C"
+
+[export]
+include = ["NateEndianness"]
+
+[export.rename]
+"NateStatus" = "nate_status"
+"NateDwarf" = "nate_dwarf"
+"NateEndianness" = "nate_endianness"
+"NateCompilationUnit" = "nate_compilation_unit"
+"Address" = "nate_address"
+
+[enum]
+rename_variants = "snake_case"
+prefix_with_name = true
+
+[parse]
+parse_deps = true
+include = ["nate"]

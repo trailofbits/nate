@@ -1,0 +1,19 @@
+[package]
+name = "nate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = { version = "1", features = ["backtrace"] }
+thiserror = "1"
+num-traits = "0"
+ahash = "0"
+byteorder = "1"
+rayon = "1"
+dw5-consts = { path = "../dw5-consts" }
+smallvec = { version = "1", features = ["const_generics"] }
+cstr = "0"
+tracing = "0"
+
+[features]
+tagged-ref-diagnostic-tracking = []

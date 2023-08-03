@@ -1,0 +1,10 @@
+[package]
+name = "dw5-consts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+serde = "1"
+serde_yaml = "0"
